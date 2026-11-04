@@ -1,0 +1,15 @@
+{
+  "name": "api-seguridad-privada",
+  "version": "1.0.0",
+  "description": "API REST para la gestión de una empresa de seguridad privada",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.3.0",
+    "mysql": "^2.18.1"
+  }
+}
